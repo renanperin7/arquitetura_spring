@@ -50,6 +50,6 @@ public class Carro {
             return new CarroStatus("Não é possível iniciar o carro desta montadora!");
         }
 
-        return new CarroStatus("Carro ligado. Rodando com o motor " + motor);
+        return new CarroStatus("Carro ligado. Rodando com o " + motor);
     }
 }

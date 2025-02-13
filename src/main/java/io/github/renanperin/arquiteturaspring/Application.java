@@ -20,8 +20,6 @@ public class Application {
 		builder.run(args);
 
 		ConfigurableApplicationContext applicationContext = builder.context();
-		var produtoRepository = applicationContext.getBean("produtoRepository");
-
 		ConfigurableEnvironment environment = applicationContext.getEnvironment();
 
 		String applicationName = environment.getProperty("spring.application.name");
